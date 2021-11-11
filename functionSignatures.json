@@ -1,0 +1,16 @@
+{
+"spikeRasterPlot":
+{
+    "inputs":
+    [
+        {"name":"parent", "kind":"ordered", "type":[["matlab.ui.Figure"], ["matlab.ui.container.Panel"], ["matlab.ui.container.Tab"], ["matlab.ui.container.GridLayout"], ["matlab.graphics.layout.TiledChartLayout"]]},
+        {"name":"spikeTimes", "kind":"positional", "type":["duration", "vector"]},
+        {"name":"trials", "kind":"positional", "type":[["numeric", "vector"],["categorical", "vector"],["string", "vector"],["cellstr", "vector"]]},
+        {"name":"namevalue", "kind":"properties", "type":"spikeRasterPlot"}
+    ],
+    "outputs":
+    [
+        {"name":"h", "type":"spikeRasterPlot"}
+    ]
+}
+}
