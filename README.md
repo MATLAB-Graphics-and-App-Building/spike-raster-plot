@@ -1,5 +1,7 @@
 # Spike Raster Plot
 
+[![View Spike Raster Plot on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/101884-spike-raster-plot)
+
 Version: 1.0
 
 This chart creates a spike raster plot from spike time stamps with optional trial and group data.
