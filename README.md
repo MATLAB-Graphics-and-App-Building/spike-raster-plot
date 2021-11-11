@@ -6,6 +6,8 @@ Version: 1.0
 
 This chart creates a spike raster plot from spike time stamps with optional trial and group data.
 
+![Spike Raster Plot](./spikeRasterPlot.png)
+
 ## Syntax
 * `spikeRasterPlot(spikeTimes)` create a spike raster plot with the specified spike timestamps. spikeTimes must be a vector of duration values.
 * `spikeRasterPlot(spikeTimes, trials)` create a spike raster plot with the specified trial assignment for each spike time. trials must be a vector of equal length to the spike times and of type categorical or be convertible to categorical.
